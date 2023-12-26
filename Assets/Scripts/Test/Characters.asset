@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80ac2f5e9c40401bbe5b99dc4bfb87c, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  characterList:
+  - CharacterName: Character
+    numberOfTimes: 100
+    prefab: {fileID: 7894738888270855064, guid: 6074227b12e02475599d3f251de1fe5c, type: 3}
+  - CharacterName: Enemy
+    numberOfTimes: 70
+    prefab: {fileID: 5393086635892195425, guid: 79cddf175ceda45d190ecb1482e4c7d8, type: 3}
+  - CharacterName: Boss Blue
+    numberOfTimes: 20
+    prefab: {fileID: 5350956585844303593, guid: 77903e513af2545e9805293fbb89da83, type: 3}
+  - CharacterName: Boss Red
+    numberOfTimes: 20
+    prefab: {fileID: 8660254165531564613, guid: 524dd4d7b0789457fa6133ead9e1519c, type: 3}
+  - CharacterName: Boss Green
+    numberOfTimes: 20
+    prefab: {fileID: 135545530365670846, guid: c220fbe8cdf734613b06d02115cb30f4, type: 3}
